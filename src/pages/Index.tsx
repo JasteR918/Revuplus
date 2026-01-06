@@ -12,16 +12,16 @@ const Index = () => {
       <div
   className="
     fixed inset-0 pointer-events-none
-    bg-center bg-no-repeat
     opacity-20
     md:opacity-25
     lg:opacity-30
+    bg-center bg-no-repeat
     lg:bg-cover
     lg:bg-fixed
   "
   style={{
     backgroundImage: `url(${backgroundPattern})`,
-    backgroundSize: "1100px", // iPhone & iPad
+    backgroundSize: "1100px", // iPhone & iPad (prevents stretching)
   }}
 />
       {/* Content */}
