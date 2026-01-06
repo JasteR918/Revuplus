@@ -27,7 +27,7 @@ const Footer = () => {
 
           {/* App Store badge */}
           <a
-            href="https://apps.apple.com/app/revu-plus"
+            href="https://apps.apple.com/in/app/revu/id6747489737"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:scale-105 transition-transform duration-300"
