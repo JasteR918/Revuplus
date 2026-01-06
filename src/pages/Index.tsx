@@ -13,9 +13,9 @@ const Index = () => {
   className="fixed inset-0 pointer-events-none opacity-30"
   style={{
     backgroundImage: `url(${backgroundPattern})`,
-    backgroundRepeat: "repeat",
-    backgroundSize: "600px",
+    backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
+    backgroundSize: "min(1400px, 100vw)", // 🔑 key line
   }}
 />
       {/* Content */}
