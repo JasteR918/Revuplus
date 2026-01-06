@@ -21,31 +21,44 @@ const Footer = () => {
             />
             <div>
               <p className="font-semibold text-foreground">Revu+</p>
-              <p className="text-sm text-muted-foreground">Smart Quizzes from Your PDFs</p>
+              <p className="text-sm text-muted-foreground">
+                Smart Quizzes from Your PDFs
+              </p>
             </div>
           </div>
 
-          {/* App Store badge */}
-          <a
-            href="https://apps.apple.com/in/app/revu/id6747489737"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:scale-105 transition-transform duration-300"
-          >
-            <img
-              src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-              alt="Download on the App Store"
-              className="h-10"
-            />
-          </a>
+          {/* App Store badge — CENTER ALIGNED */}
+          <div className="flex justify-center w-full md:w-auto">
+            <a
+              href="https://apps.apple.com/in/app/revu/id6747489737"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-105 transition-transform duration-300"
+            >
+              <img
+                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="Download on the App Store"
+                className="h-10 mx-auto"
+              />
+            </a>
+          </div>
 
-          {/* Contact */}
-          <a
-            href="mailto:Vedang_k@icloud.com"
-            className="text-sm text-muted-foreground hover:text-revu-blue transition-colors"
-          >
-            📩 Vedang_k@icloud.com
-          </a>
+          {/* Links instead of email */}
+          <div className="flex items-center gap-6 text-sm">
+            <a
+              href="/privacy-policy"
+              className="text-muted-foreground hover:text-revu-blue transition-colors"
+            >
+              Privacy Policy
+            </a>
+
+            <a
+              href="/contact"
+              className="text-muted-foreground hover:text-revu-blue transition-colors"
+            >
+              Contact • Vedang K
+            </a>
+          </div>
         </motion.div>
 
         <motion.div
@@ -63,5 +76,4 @@ const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;
