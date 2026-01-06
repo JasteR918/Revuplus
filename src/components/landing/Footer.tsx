@@ -46,7 +46,7 @@ const Footer = () => {
           {/* Links instead of email */}
           <div className="flex items-center gap-6 text-sm">
             <a
-              href="https://revuplus.vercel.app/privacy-policy"
+              href="src/components/landing/privacypolicy.tsx"
               className="text-muted-foreground hover:text-revu-blue transition-colors"
             >
               Privacy Policy
