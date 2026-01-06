@@ -45,23 +45,21 @@ const Footer = () => {
 
           {/* Links instead of email */}
           <div className="flex items-center gap-6 text-sm">
-            <div className="flex items-center gap-6 text-sm">
-  <a
-    href="https://revuplus.vercel.app/privacy-policy"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-muted-foreground hover:text-revu-blue transition-colors"
-  >
-    Privacy Policy
-  </a>
+            <a
+              href="src/components/landing/privacypolicy.tsx"
+              className="text-muted-foreground hover:text-revu-blue transition-colors"
+            >
+              Privacy Policy
+            </a>
 
-  <a
-    href="mailto:vedang_k@icloud.com"
-    className="text-muted-foreground hover:text-revu-blue transition-colors"
-  >
-    Contact • Vedang K
-  </a>
-</div>
+            <a
+              href="/contact"
+              className="text-muted-foreground hover:text-revu-blue transition-colors"
+            >
+              Contact • Vedang K
+            </a>
+          </div>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0 }}
