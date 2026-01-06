@@ -5,17 +5,32 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-6 py-20 overflow-hidden">
       {/* Logo */}
- <motion.div
-  initial={{ opacity: 0, scale: 0.8 }}
+<motion.div
+  initial={{ opacity: 0, scale: 0.9 }}
   animate={{ opacity: 1, scale: 1 }}
-  transition={{ duration: 0.8 }}
-  className="mb-8"
+  transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
+  className="mb-10"
 >
-  <div className="w-32 h-32 md:w-40 md:h-40 rounded-3xl shadow-2xl bg-black flex items-center justify-center">
+  <div
+    className="
+      w-[140px] h-[140px]
+      md:w-[168px] md:h-[168px]
+      lg:w-[180px] lg:h-[180px]
+      rounded-[28px]
+      bg-black
+      shadow-2xl
+      flex items-center justify-center
+    "
+  >
     <img
       src={revuLogo}
       alt="Revu+ Logo"
-      className="w-20 h-20 md:w-24 md:h-24 object-contain"
+      className="
+        w-[96px] h-[96px]
+        md:w-[112px] md:h-[112px]
+        lg:w-[120px] lg:h-[120px]
+        object-contain
+      "
     />
   </div>
 </motion.div>
