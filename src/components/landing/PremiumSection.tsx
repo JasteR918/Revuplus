@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 
 const premiumFeatures = [
   "Advanced quiz controls",
-  "More questions per quiz",
-  "Difficulty selection",
-  "Enhanced revision flow",
+  "Richer quizzes for deeper learning",
+  "Smart difficulty selection",
+  "Seamless revision experience"
 ];
 
 const PremiumSection = () => {
