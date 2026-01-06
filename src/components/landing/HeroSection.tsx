@@ -25,7 +25,7 @@ const HeroSection = () => {
         transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.46, 0.45, 0.94] }}
         className="text-4xl md:text-6xl lg:text-7xl font-bold text-center text-foreground tracking-tight max-w-4xl"
       >
-        Smart Quizzes from Your{" "}
+        Create quizzes directly from your{" "}
         <span className="text-revu-blue">PDFs</span>
       </motion.h1>
 
