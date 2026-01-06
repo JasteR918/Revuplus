@@ -9,15 +9,22 @@ const Index = () => {
   return (
     <div className="relative min-h-screen bg-background overflow-x-hidden">
       {/* Background pattern with parallax */}
-      <div 
-        className="fixed inset-0 pointer-events-none opacity-30"
-        style={{
-          backgroundImage: `url(${backgroundPattern})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
-        }}
-      />
+      <div
+  className="
+    fixed inset-0 pointer-events-none bg-center bg-no-repeat
+    opacity-20
+    bg-[length:1100px]
+    sm:bg-[length:1300px]
+    md:bg-[length:1500px]
+    lg:bg-cover
+    lg:bg-fixed
+    md:opacity-25
+    lg:opacity-30
+  "
+  style={{
+    backgroundImage: `url(${backgroundPattern})`,
+  }}
+/>
       
       {/* Content */}
       <div className="relative z-10">
