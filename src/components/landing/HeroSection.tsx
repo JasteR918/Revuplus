@@ -43,7 +43,7 @@ const HeroSection = () => {
 
       {/* App Store Badge */}
       <motion.a
-        href="https://apps.apple.com/app/revu-plus"
+        href="https://apps.apple.com/in/app/revu/id6747489737"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, y: 20 }}
