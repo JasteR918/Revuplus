@@ -53,7 +53,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="/contact"
+              href="mailto:vedang_k@icloud.com"
               className="text-muted-foreground hover:text-revu-blue transition-colors"
             >
               Contact • Vedang K
