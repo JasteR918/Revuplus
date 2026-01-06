@@ -27,7 +27,7 @@ const PremiumSection = () => {
             Premium Early Access
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            Revu+ Premium is currently available via invite-only access.
+           Revu+ Premium Scholar is currently available through early access
           </p>
         </motion.div>
 
