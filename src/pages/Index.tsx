@@ -10,18 +10,12 @@ const Index = () => {
     <div className="relative min-h-screen bg-background overflow-x-hidden">
       {/* Background pattern with parallax */}
       <div
-  className="
-    fixed inset-0 pointer-events-none
-    opacity-20
-    md:opacity-25
-    lg:opacity-30
-    bg-center bg-no-repeat
-    lg:bg-cover
-    lg:bg-fixed
-  "
+  className="fixed inset-0 pointer-events-none opacity-30"
   style={{
     backgroundImage: `url(${backgroundPattern})`,
-    backgroundSize: "1100px", // iPhone & iPad (prevents stretching)
+    backgroundRepeat: "repeat",
+    backgroundSize: "600px",
+    backgroundPosition: "center",
   }}
 />
       {/* Content */}
